@@ -1,2 +1,90 @@
-.venv/ 
+# ==============================================================================
+# Byte-compiled / optimized / Python cache files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Jupyter Notebooks & JupyterLab
+# ==============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+.local/share/jupyter/
+
+# ==============================================================================
+# Environment Variables & Sensitive Credentials
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ==============================================================================
+# Operating System files
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+# Linux
+*~
+.directory
+
+# ==============================================================================
+# IDEs and Text Editors
+# ==============================================================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# ==============================================================================
+# Logs & Testing artifacts
+# ==============================================================================
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
